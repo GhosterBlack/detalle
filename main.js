@@ -304,6 +304,7 @@ window.onload = ()=> {
     
     equis.onclick = ()=> {
         hoverhill.classList.add("hidden");
+        document.body.style.overflow = "";
     }
 
     galeria.sort(()=> Math.random() - Math.random())
@@ -328,7 +329,8 @@ window.onload = ()=> {
             nombre.textContent = element.nombre;
             foto.src = "resource/"+element.imagen;
             audio.src = "resource/"+element.sonido;
-            parrafo.innerText = element.mensaje
+            parrafo.innerText = element.mensaje;
+            document.body.style.overflow = "hidden";
         }
         
     }
