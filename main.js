@@ -275,6 +275,22 @@ const galeria = [
         voy a extrañar escuchar sus comentarios llenos de sentimiento y amor por la verdad.
         Espero que su familia siga creciendo espiritualmente al igual que usted querida hermana.`
     },
+    {
+        imagen: "brayan.jpg",
+        sonido: "brayan.opus",
+        nombre: "Brayan",
+        mensaje: `Compae, eres un gran amigo, siempre estas dispuesto a escuchar y charlar con los demas,
+        tu carisma y tus ocurrencias fueron muy agradables, sin duda eres un hermano en el que se puede
+        confiar plenamente.`
+    },
+    {
+        imagen: "diana.jpg",
+        sonido: "diana.opus",
+        nombre: "Diana",
+        mensaje: `Diana, hermana, gracias por tus comentarios y por los buenos ratos que comparti contigo
+        y tu esposo, son una familia muy bonita, espero que sigan creciendo espiritualmente, estoy
+        agradecido de haberlos conocido.`
+    }
     
 ];
 window.onload = ()=> {
