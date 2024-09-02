@@ -1,0 +1,120 @@
+@font-face {
+    font-family: comic-neue;
+    src: url("resource/ComicNeue-Regular.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: comic-neue;
+}
+
+body {
+    background-image: url("resource/back.png");
+    
+}
+
+header, .header {
+    position: sticky;
+    background-color: rgb(123, 34, 158);
+    padding: 10px;
+    color: white;
+}
+.hoverhill {
+    background-color: rgba(0, 0, 0, 0.158);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ventana {
+    width: 90vw;
+    height: 80vh;
+    background-color: white;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+
+.equis {
+    text-align: center;
+    background-color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+.body {
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    height: 70vh;
+    overflow-y: scroll;
+}
+
+.foto {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.foto img {
+    width: 100%;
+}
+
+.fotos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.fotos div {
+    text-align: center;
+    min-height: 60vw;
+    padding: 10px;
+    background-color: rgb(224, 193, 245);
+    margin: 10px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: 5fr 1fr;
+}
+
+.fotos div nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.fotos div p {
+    background-color: rgba(0, 0, 0, 0.178);
+    padding: 5px;
+}
+
+.fotos div img {
+    width: 80%;
+}
+
+p {
+    background-color: rgb(234, 211, 255);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.oleo {
+    display: block;
+    text-align: right;
+}
